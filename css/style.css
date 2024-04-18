@@ -484,7 +484,7 @@ align-items:  flex-start;
   }
   
   .flip-card-front {
-    background: linear-gradient(to left, #6f6f79, #090d11);
+    background: linear-gradient(to left, #e78787, #b83849);
     color: black;
     z-index: 2;
     display: flex;
@@ -493,7 +493,7 @@ align-items:  flex-start;
   }
   
   .flip-card-back {
-    background: linear-gradient(to right, #7cb7ee, #012150);
+    background: linear-gradient(to right, #ee617f, #a03c0d);
     color: white;
     transform: rotateY(180deg);
     z-index: 1;
@@ -501,7 +501,10 @@ align-items:  flex-start;
     justify-content: center;
     align-items: center;
   }
-  
+  #donate {
+    font-size: 19px;
+    align-items: center;
+  }
   
   #main-footer {
     background-color: #ccc;
