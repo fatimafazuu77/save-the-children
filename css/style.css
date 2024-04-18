@@ -239,7 +239,11 @@ align-items:  flex-start;
       font-weight: 500;
     }
  
-        
+    .agfimg h1{
+      font-size: 100px;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
     .afgimg{
       height: 600px;
       width:1000px;
